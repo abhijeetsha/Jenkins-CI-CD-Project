@@ -1,15 +1,11 @@
 pipeline {
     agent any
 
-    environment {
-        DOCKER_IMAGE = "yourdockerhub/appname"
-    }
-
     stages {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/user/repo.git'
+                git 'https://github.com/abhijeetsha/Jenkins-CI-CD-Project.git'
             }
         }
 
