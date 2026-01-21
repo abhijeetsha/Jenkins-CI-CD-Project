@@ -1,0 +1,21 @@
+{
+  "name": "jenkins-cicd-node-app",
+  "version": "1.0.0",
+  "description": "Node.js application for Jenkins CI/CD pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "echo \"Build completed\""
+  },
+  "author": "Abhijeet Patil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
